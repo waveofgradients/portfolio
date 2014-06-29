@@ -41,8 +41,8 @@ h2 {font-weight: 300; font-size: 4.5rem; letter-spacing: -.01em; font-style: ita
 @media only screen and (max-device-width: 480px) {
 	body {width: 94%;}
 
-	#logo {height: 61px;}
+	#logo {height: 40px;}
 
-	h1 {font-size: 1.5rem; margin-bottom: 60px;}
+	h1 {font-size: 1.5rem; margin-bottom: 60px; font-weight: normal;}
 	h2 {font-size: 2.2rem;}
 }
