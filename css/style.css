@@ -39,7 +39,7 @@ h2 {font-weight: 300; font-size: 4.5rem; letter-spacing: -.01em; font-style: ita
 
 /**Mobile**/
 @media only screen and (max-device-width: 480px) {
-	body {width: 94%;}
+	body {width: 90%;}
 
 	#logo {height: 50px; padding-top: 30px;}
 
