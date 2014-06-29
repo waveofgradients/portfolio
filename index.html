@@ -1,94 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<title>Sean Thompson, Designer, coder, explorer</title>
-
-		<!--Bootstrap reset and responsive grid-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-		<link rel="icon" type="image/png" href="img/avasmall.png">
-
-		<!--SASS-->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="My craft has fascinated and challenged me since childhood.">
-	</head>
-	<body>
-		<div>
-			<section class="top row-fluid dark center">
-				<div class="span-12">
-					<a href="#"><img src="img/logo_light.png" alt="Sean Thompson, Designer"></a>
-					<h1>Designer, coder, explorer</h1>
-					<ul class="inline">
-						<li><a href="http://dribbble.com/visualSean">Dribbble</a></li>
-						<li><a href="http://linkedin.com/in/seanthomps">LinkedIn</a></li>
-						<li><a href="https://twitter.com/visualSean">Twitter</a></li>
-						<li><a href="mailto:seanthomps@gmail.com">Email</a></li>
-					</ul>
-				</div>
-			</section><!--end header row-->
-
-            <section class="earthquake row-fluid light center">
-            	<div class="span10 offset1">
-            		<a href="https://dl.dropbox.com/u/4088146/earthquakes/index.html"><img src="img/work_earthquakes.png"></a>
-            		<p class="description">I found some <a href="https://dl.dropbox.com/u/4088146/earthquakes/index.html">Earthquake data</a> to play with, so I am using it as an excuse to learn some d3.js. The type is DIN Condensed Web, and FF Meta Serif Web Pro.</p>
-            	</div>
-            	<div class="span1">&nbsp;</div>
-			</section><!--end d3 Earthquakes-->
-
-			<section class="iphone row-fluid dark center">
-				<div class="span10 offset1">
-					<a href="http://www.inspectacle.com/users/4088146/file?path=%2FiPhone_re-design.jpg">
-							<img src="img/work_truliaiphone.png">
-					</a>
-					<p class="description">I re-designed Trulia's iPhone and iPad experiences, which involved improving the search experience and adding insight into local areas.</p>
-				</div>
-				<div class="span1">&nbsp;</div>
-			</section><!--end Trulia iPhone-->
-
-			<section class="seanbooks row-fluid light center">
-				<div class="span-12">
-					<a href="http://seanbooks.tumblr.com"><img src="img/work_seanbooks.png"></a>
-            		<p class="description">For fun, I decided to make a <a href="http://seanbooks.tumblr.com/">book-sharing site</a>. Anyone can add a photo of a book and a quote to remember it by.
-
-The type is FF Tisa Web-Pro and Futura PT.</p>
-				</div>
-			</section><!--end SeanBooks-->
-
-			<section class="windows8 row-fluid dark center">
-				<div class="span-12">
-					<img src="img/work_truliawindows8v2.png">
-					<p class="description">A team of Engineers and I collaborated with Microsoft on a neighborhood app for Windows 8. I attempted to create engaging representations of nearby locations, by grouping together map tiles, photos, and local info.</p>
-				</div>
-			</section><!--end Trulia Windows 8-->
-
-			<section class="parking row-fluid dark center">
-				<div class="span10 offset1">
-					<a href="http://www.inspectacle.com/users/4088146/file?path=%2Fshallistay.pdf">
-							<img src="img/work_parkingapp.png">
-					</a>
-					<p class="description">Before my car died during a camping trip, I used to hate parking in the city. For fun, I experimented with an interface that visually indicates whether or not you can park on a particular street based on available street-cleaning data. The color also adjusts based on if it is day or night.</p>
-				</div>
-				<div class="span1">&nbsp;</div>
-			</section><!--end Trulia Parking App-->		
-
-			<section class="beerwhich row-fluid dark center">
-				<div class="span10 offset1">
-					<a href="http://beerwhich.com"><img src="img/work_beerwhichlogos.png"></a>
-					<p class="description"><a href="http://beerwhich.com">Beerwhich</a> is a beer tasting-note Facebook app that I designed and helped build for fun. The type is Droid Sans and Serif.</p>
-				</div>
-				<div class="span1">&nbsp;</div>
-			</section><!--end Beerwhich-->
-
-		</div><!--container-->
+		<title>Sean Thompson: Designer, Coder, Explorer</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="css/style.css">
 
 		<!--Typekit-->
-		<script type="text/javascript" src="//use.typekit.net/iki1scj.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/pzf7eek.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<style>
+			body {
+				font-size: 120%;
+				background-color: #dde3ed;
+				color: #202327;
+				font-family: "brandon-grotesque";
+				line-height: 1.5;
+				width: 86%;
+				padding: 6% 0;
+				text-align: center;
+				margin: auto;
+				text-rendering: optimizeLegibility;
+				display: block;
+			}
 
-		<!--jQuery-->
-		<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>	
+			section img {width: 100%; max-width: 1340px; border-radius: 4px;}
+
+
+			a {text-decoration: none; color: #0b0d0e;}
+
+			#logo {
+				-o-transition: 0.5s ease-in-out;
+				-ms-transition: 0.5s ease-in-out;
+				-moz-transition: 0.5s ease-in-out;
+				-webkit-transition: 0.5s ease-in-out;
+				transition: 0.5s ease-in-out; 
+			}
+			#logo:hover {
+				opacity: .8;
+				zoom: 1;
+				filter: alpha(opacity=80);
+				opacity: 0.8;
+
+			}
+
+			section {margin: 10% 0; width: 100%;}
+
+			h1 {font-weight: 300; font-size: 2.4rem; letter-spacing: -.01em;}
+			h2 {font-weight: 300; font-size: 4.5rem; letter-spacing: -.01em; font-style: italic; line-height: 1.2;}
+
+			/**Mobile**/
+			@media only screen and (max-device-width: 480px) {
+				body {width: 94%;}
+
+				#logo {height: 61px;}
+
+				h1 {font-size: 1.5rem; margin-bottom: 60px;}
+				h2 {font-size: 2.2rem;}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a href="mailto:seanthomps@gmail.com"><img id="logo" src="image/logo.png"></a>
+			<h1>Designer, Coder, Explorer</h1>
+		</header>
+
+		<section>
+			<img src="image/runscope_6.png">
+		</section>
+		<section>
+			<img src="image/earthquake.png">
+		</section>
+		<section>
+			<img src="image/trulia_win8_1.png">
+		</section>
+		<section>
+			<img src="image/seanbooks.png">
+		</section>
+		<section>
+			<img src="image/inspectacle_3.png">
+		</section>
+		<h2>Making things people use has fascinated<br>and challenged me since I was a kid.<br>I try to rely on bold, deliberate use of color<br>and typography to tell stories.</h2>
 	</body>
 </html>
