@@ -1,0 +1,48 @@
+body {
+	font-size: 120%;
+	background-color: #dde3ed;
+	color: #202327;
+	font-family: "brandon-grotesque";
+	line-height: 1.5;
+	width: 86%;
+	padding: 6% 0;
+	text-align: center;
+	margin: auto;
+	text-rendering: optimizeLegibility;
+	display: block;
+}
+
+section img {width: 100%; max-width: 1340px; border-radius: 4px;}
+
+
+a {text-decoration: none; color: #0b0d0e;}
+
+#logo {
+	-o-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out; 
+}
+#logo:hover {
+	opacity: .8;
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+
+}
+
+section {margin: 10% 0; width: 100%;}
+
+h1 {font-weight: 300; font-size: 2.4rem; letter-spacing: -.01em;}
+h2 {font-weight: 300; font-size: 4.5rem; letter-spacing: -.01em; font-style: italic; line-height: 1.2;}
+
+/**Mobile**/
+@media only screen and (max-device-width: 480px) {
+	body {width: 94%;}
+
+	#logo {height: 61px;}
+
+	h1 {font-size: 1.5rem; margin-bottom: 60px;}
+	h2 {font-size: 2.2rem;}
+}
