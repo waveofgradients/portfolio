@@ -1,0 +1,69 @@
+body {
+	color: #fff;
+	font-family: "brandon-grotesque",sans-serif;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-variant-ligatures: common-ligatures;
+	text-align: center;
+	line-height: 1.52;
+	text-rendering: optimizeLegibility;
+}
+
+a, a:active, a:visited {
+	color: #fff;
+	text-decoration: none;
+	-o-transition:color .2s ease-out, background 1s ease-in;
+  	-ms-transition:color .2s ease-out, background 1s ease-in;
+  	-moz-transition:color .2s ease-out, background 1s ease-in;
+  	-webkit-transition:color .2s ease-out, background 1s ease-in;
+  	transition:color .2s ease-out, background 1s ease-in;
+}
+a:hover {color: rgba(255,255,255, .7);}
+
+h1, h2 {padding: 0 50px;}
+
+h2 {display: none;}
+
+section {
+	width: 43.5em;
+	height: 29em;
+	overflow: hidden;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+p {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 0;
+	padding: 1.5em 50px .5em 50px;
+}
+ul {padding: 0 50px;}
+ul li {
+	display: inline;
+	font-weight: 400;
+	padding: 0 .5em 0 .5em;
+	font-size: 1.3em;
+	letter-spacing: .1;
+}
+
+#gradient {height: 100%; width: 100%;}
+
+.desktop_hide {display: none;}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	body {text-align: left;}
+	p {font-size: 1.2em; padding-bottom: .1em; font-weight: 400;}
+	section {width: 18.75em; height: 24em;}
+	ul li {font-size: 1em; padding-left: 0; padding-right: .8em;}
+	h1 {display: none;}
+	h2 {display: block;}
+	.mobile_hide {display: none;}
+	.desktop_hide {display: block;}
+	h1, h2, p, ul {padding-left: 22px; padding-right: 22px;}
+}
+
