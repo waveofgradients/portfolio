@@ -56,7 +56,7 @@ ul li {
 @media only screen 
 and (min-device-width : 481px) 
 and (max-device-width : 900px) {
-	p {font-size: 1.8em; padding-bottom: .1em;}
+	p {font-size: 1.8em; padding-bottom: .1em; padding: 1.5em 70px .5em 70px;}
 	ul li {font-size: 1.2em; padding-left: 0; padding-right: .8em;}
 }
 
