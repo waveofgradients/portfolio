@@ -55,6 +55,7 @@
 <script>
 // target to give background to
 var $div = document.getElementById("gradient");
+
 // rgb vals of the gradients
 var gradients = [
   { start: [20,0,199], stop: [0,255,187] }, //blue green
@@ -67,7 +68,6 @@ var gradients = [
 var transition_time = 1;
 // how many frames per second
 var fps = 120;
-
 
 // interal type vars
 var timer; // for the setInterval
@@ -84,6 +84,7 @@ var rgb_values = {
   start: [0,0,0],
   stop: [0,0,0]
 }; // the current rgb values, gets altered by rgb steps on each interval
+
 var prefixes = ["-webkit-","-moz-","-o-","-ms-",""]; // for looping through adding styles
 var div_style = $div.style; // short cut to actually adding styles
 var gradients_tested = false;
@@ -166,8 +167,6 @@ calc_steps();
 
 // go go go!
 timer = setInterval(updateGradient,interval_time);
-
-
 </script>
 </body>
 </html>
