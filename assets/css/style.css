@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	position: relative;
 	font-variant-ligatures: common-ligatures;
-	text-align: center;
+	text-align: left;
 	line-height: 1.52;
 	text-rendering: optimizeLegibility;
 }
@@ -29,7 +29,7 @@ section {
 	width: 43.5em;
 	height: 29em;
 	overflow: hidden;
-	margin: auto;
+	margin: auto auto auto 10%;
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -44,7 +44,7 @@ ul {padding: 0 50px;}
 ul li {
 	display: inline;
 	font-weight: 400;
-	padding: 0 .5em 0 .5em;
+	padding: 0 .5em 0 0;
 	font-size: 1.3em;
 	letter-spacing: .1;
 }
