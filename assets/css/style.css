@@ -65,9 +65,9 @@ and (min-width : 1700px) {
 and (min-width : 320px) 
 and (max-width : 480px) {
 	body {text-align: left; padding: 0;}
-	p {font-size: 1.5em; padding-bottom: .1em;}
-	section {margin: auto; width: 20em; height: 24em;}
-	ul li {font-size: 1.1em; padding-left: 0; padding-right: .8em;}
+	p {font-size: 1.25em; padding-bottom: .1em; font-weight: 400;}
+	section {margin: auto; width: 84%; height: 24em; padding: 0 8%;}
+	ul li {font-size: 1em; padding-left: 0; padding-right: .8em;}
 	h1 {display: none;}
 	h2 {display: block;}
 	.mobile_hide {display: none;}
