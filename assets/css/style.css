@@ -1,8 +1,9 @@
 body {
 	color: #fff;
 	font-family: "brandon-grotesque",sans-serif;
+	font-size: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 1rem;
 	position: relative;
 	font-variant-ligatures: common-ligatures;
 	text-align: left;
@@ -21,12 +22,12 @@ a, a:active, a:visited {
 }
 a:hover {color: rgba(255,255,255, .7);}
 
-h1, h2 {padding: 0 50px;}
+h1, h2 {padding: 0;}
 
 h2 {display: none;}
 
 section {
-	width: 43.5em;
+	width: 37.3em;
 	height: 29em;
 	overflow: hidden;
 	margin: auto auto auto 10%;
@@ -38,9 +39,9 @@ p {
 	font-size: 2em;
 	font-weight: 300;
 	margin: 0;
-	padding: 1.5em 50px .5em 50px;
+	padding: 1.5em 0 .5em 0;
 }
-ul {padding: 0 50px;}
+ul {padding: 0;}
 ul li {
 	display: inline;
 	font-weight: 400;
@@ -53,24 +54,23 @@ ul li {
 
 .desktop_hide {display: none;}
 
-@media only screen 
-and (min-device-width : 481px) 
-and (max-device-width : 900px) {
-	p {font-size: 1.8em; padding-bottom: .1em; padding: 1.5em 70px .5em 70px;}
-	ul li {font-size: 1.2em; padding-left: 0; padding-right: .8em;}
+@media screen 
+and (min-width : 1700px) {
+	p {font-size: 3em; padding-bottom: .4em;}
+	section {width: 55.8em; height: 39em;}
+	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-	body {text-align: left;}
-	p {font-size: 1.2em; padding-bottom: .1em; font-weight: 400;}
-	section {margin: auto; width: 18.75em; height: 24em;}
-	ul li {font-size: 1em; padding-left: 0; padding-right: .8em;}
+@media screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	body {text-align: left; padding: 0;}
+	p {font-size: 1.5em; padding-bottom: .1em;}
+	section {margin: auto; width: 20em; height: 24em;}
+	ul li {font-size: 1.1em; padding-left: 0; padding-right: .8em;}
 	h1 {display: none;}
 	h2 {display: block;}
 	.mobile_hide {display: none;}
 	.desktop_hide {display: block;}
-	h1, h2, p, ul {padding-left: 22px; padding-right: 22px;}
 }
 
