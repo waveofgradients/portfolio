@@ -3,7 +3,7 @@ body {
 	font-family: "brandon-grotesque",sans-serif;
 	font-size: 100%;
 	margin: 0;
-	padding: 1rem;
+	padding: 0 1rem;
 	position: relative;
 	font-variant-ligatures: common-ligatures;
 	text-align: left;
@@ -23,7 +23,6 @@ a, a:active, a:visited {
 a:hover {color: rgba(255,255,255, .7);}
 
 h1, h2 {padding: 0;}
-
 h2 {display: none;}
 
 section {
