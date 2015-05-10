@@ -3,13 +3,13 @@ body {
 	font-family: "brandon-grotesque",sans-serif;
 	font-size: 100%;
 	margin: 0;
+	overflow: hidden;
 	padding: 0 1rem;
 	position: relative;
 	font-variant-ligatures: common-ligatures;
 	text-align: left;
 	line-height: 1.52;
 	text-rendering: optimizeLegibility;
-	overflow-x: hidden;
 }
 
 a, a:active, a:visited {
