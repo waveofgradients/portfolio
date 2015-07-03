@@ -27,7 +27,8 @@ h1, h2 {padding: 0;}
 h2 {display: none;}
 
 section {
-	width: 37.3em;
+	width: 28em;
+	font-size: 2em;
 	height: 29em;
 	overflow: hidden;
 	margin: auto auto auto 10%;
@@ -37,7 +38,6 @@ section {
 
 p {
 	font-size: 2em;
-	width: 34em;
 	font-weight: 300;
 	margin: 0;
 	padding: 1.5em 0 .5em 0;
