@@ -27,6 +27,7 @@ h1, h2 {padding: 0;}
 h2 {display: none;}
 
 section {
+	width: 37.3em;
 	height: 29em;
 	overflow: hidden;
 	margin: auto auto auto 10%;
@@ -35,7 +36,6 @@ section {
 }
 
 p {
-	width: 19em;
 	font-size: 2em;
 	font-weight: 300;
 	margin: 0;
@@ -57,7 +57,7 @@ ul li {
 @media screen 
 and (min-width : 1700px) {
 	p {font-size: 3em; padding-bottom: .4em;}
-	section {height: 39em;}
+	section {width: 55.8em; height: 39em;}
 	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
 }
 
