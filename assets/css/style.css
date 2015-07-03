@@ -74,3 +74,8 @@ and (max-device-width : 480px) {
 	.desktop_hide {display: block;}
 }
 
+@media screen 
+and (device-width : 360px) {
+	section {margin: auto; width: 88%; height: 24em; padding: 0 6%;}
+}
+
