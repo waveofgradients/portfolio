@@ -28,8 +28,6 @@ h2 {display: none;}
 
 section {
 	width: 37.3em;
-	font-size: 30pt;
-	font-weight: 300;
 	height: 29em;
 	overflow: hidden;
 	margin: auto auto auto 10%;
@@ -38,6 +36,8 @@ section {
 }
 
 p {
+	font-size: 2em;
+	font-weight: 300;
 	margin: 0;
 	padding: 1.5em 0 .5em 0;
 }
