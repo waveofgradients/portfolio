@@ -1,6 +1,5 @@
 
 <!--gradient background-->
-<script>
 // target to give background to
 var $div = document.getElementById("gradient");
 
