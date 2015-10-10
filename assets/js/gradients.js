@@ -1,6 +1,7 @@
 
 <!--gradient background-->
 // target to give background to
+<script>
 var $div = document.getElementById("gradient");
 
 // rgb vals of the gradients
@@ -114,3 +115,4 @@ calc_steps();
 
 // go go go!
 timer = setInterval(updateGradient,interval_time);
+</script>
