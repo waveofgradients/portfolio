@@ -6,7 +6,8 @@ var gradients = [
   { start: [62,0,179], stop: [45,0,128] },  
   { start: [45,0,128], stop: [2,0,179] },
   { start: [2,0,179], stop: [2,0,128] },
-  { start: [2,0,128], stop: [62,0,179] }
+  { start: [2,0,128], stop: [27,0,77] },
+  { start: [27,0,77], stop: [62,0,179] }
 ];
 // how long for each transition
 var transition_time = 1;
