@@ -5,8 +5,7 @@ var $div = document.getElementById("gradient");
 var gradients = [
   { start: [40,0,98], stop: [115,0,153] },  
   { start: [2,0,97], stop: [54,0,153] }, 
-  { start: [97,0,32], stop: [153,0,102] },
-  { start: [0,81, 97], stop: [204,0,56] }
+  { start: [97,0,32], stop: [153,0,102] }
 ];
 // how long for each transition
 var transition_time = 1;
