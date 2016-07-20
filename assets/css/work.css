@@ -23,26 +23,49 @@ img#mark:hover {
 }
 
 img {border: 0;}
-img.sample {width: 1024px; padding: .5rem 0;}
+img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
 
 section {
 	margin: 0 auto;
-	padding: 4rem;
+	padding: 6%;
 }
 
 h1 {
-	font-size: 160%;
+	font-size: 1.6em;
 	font-weight: normal;
 	margin: 0 auto 1.8rem auto;
 }
 
 p, p.caption {
-	font-size: 110%;
+	font-size: 1.1em;
 	margin: 0 auto 1.8rem auto;
 	text-align: left;
-	width: 40rem;
+	max-width: 40rem;
 }
 p.caption {
 	margin: 1.8rem auto 5.4rem auto;
 	color: #8899A6;
+}
+
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	#mark {width: 60px;}
+
+	h1 {
+		font-size: 1.4em;
+		margin: 0 auto 1rem auto;
+	}
+
+	p, p.caption {
+		font-size: 1em;
+		margin: 0 auto 1rem auto;
+		text-align: left;
+		max-width: 40rem;
+	}
+	p.caption {
+		margin: 1rem auto 3rem auto;
+		color: #8899A6;
+	}	
 }
