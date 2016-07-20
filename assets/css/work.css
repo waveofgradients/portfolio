@@ -46,10 +46,3 @@ p.caption {
 	margin: 1.8rem auto 5.4rem auto;
 	color: #8899A6;
 }
-
-@media screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {	
-  h1 {font-size: 100px;}
-  p, p.caption {font-size: 50px;}
-}
