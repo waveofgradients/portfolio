@@ -1,0 +1,48 @@
+body {
+	background-color: #EDF0F2;
+	color: #292F33;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0 0 5.4rem 0;
+	position: relative;
+	font-variant-ligatures: common-ligatures;
+	text-align: center;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+}
+
+#mark {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   width: 80px;	
+}
+img#mark:hover {
+	opacity: .85;
+}
+
+img {border: 0;}
+img.sample {width: 1024px; padding: .5rem 0;}
+
+section {
+	margin: 0 auto;
+	padding: 4rem;
+}
+
+h1 {
+	font-size: 160%;
+	font-weight: normal;
+	margin: 0 auto 1.8rem auto;
+}
+
+p, p.caption {
+	font-size: 110%;
+	margin: 0 auto 1.8rem auto;
+	text-align: left;
+	width: 40rem;
+}
+p.caption {
+	margin: 1.8rem auto 5.4rem auto;
+	color: #8899A6;
+}
