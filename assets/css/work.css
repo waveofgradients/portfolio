@@ -59,13 +59,13 @@ and (max-device-width : 480px) {
 	}
 
 	p, p.caption {
-		font-size: 1.1em;
-		margin: 0 auto 1.1rem auto;
+		font-size: 1em;
+		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
 	}
 	p.caption {
-		margin: 1.1rem auto 3.3rem auto;
+		margin: 1rem auto 3rem auto;
 		color: #8899A6;
 	}	
 }
