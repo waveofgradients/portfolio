@@ -1,6 +1,6 @@
 body {
-	background-color: #EDF0F2;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #292F33;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	padding: 0 0 5.4rem 0;
@@ -23,7 +23,7 @@ img#mark:hover {
 }
 
 img {border: 0;}
-img.sample {border: 1px solid #CCD6DD; width: 100%; max-width: 1024px; padding: .5rem 0;}
+img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
 
 section {
 	margin: 0 auto;
