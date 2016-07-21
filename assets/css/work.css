@@ -1,5 +1,5 @@
 body {
-	background-color: #ffffff;
+	background-color: #EDF0F2;
 	color: #292F33;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
@@ -23,7 +23,7 @@ img#mark:hover {
 }
 
 img {border: 0;}
-img.sample {border: 1px solid: #CCD6DD; width: 100%; max-width: 1024px; padding: .5rem 0;}
+img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
 
 section {
 	margin: 0 auto;
@@ -40,9 +40,10 @@ p, p.caption {
 	font-size: 1.1em;
 	margin: 0 auto 1.8rem auto;
 	text-align: left;
-	max-width: 40rem;
+	max-width: 34rem;
 }
 p.caption {
+	font-size: .95em;
 	margin: 1.8rem auto 5.4rem auto;
 	color: #8899A6;
 }
