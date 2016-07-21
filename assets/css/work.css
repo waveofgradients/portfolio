@@ -1,0 +1,72 @@
+body {
+	background-color: #EDF0F2;
+	color: #292F33;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0 0 5.4rem 0;
+	position: relative;
+	font-variant-ligatures: common-ligatures;
+	text-align: center;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+}
+
+#mark {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   width: 80px;	
+}
+img#mark:hover {
+	opacity: .85;
+}
+
+img {border: 0;}
+img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
+
+section {
+	margin: 0 auto;
+	padding: 6%;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0 auto 1.8rem auto;
+}
+
+p, p.caption {
+	font-size: 1.1em;
+	margin: 0 auto 1.8rem auto;
+	text-align: left;
+	max-width: 35rem;
+}
+p.caption {
+	font-size: .95em;
+	margin: 1.8rem auto 5.4rem auto;
+	color: #8899A6;
+}
+
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	#mark {width: 60px;}
+
+	h1 {
+		font-size: 1.4em;
+		margin: 0 auto 1.4rem auto;
+	}
+
+	p, p.caption {
+		font-size: 1em;
+		margin: 0 auto 1rem auto;
+		text-align: left;
+		max-width: 40rem;
+	}
+	p.caption {
+		margin: 1rem auto 3rem auto;
+		color: #8899A6;
+	}	
+}
