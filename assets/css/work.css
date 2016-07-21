@@ -34,6 +34,7 @@ h1 {
 	font-size: 1.6em;
 	font-weight: normal;
 	margin: 0 auto 1.8rem auto;
+	letter-spacing: -.4;
 }
 
 p, p.caption {
