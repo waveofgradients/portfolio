@@ -37,13 +37,13 @@ h1 {
 }
 
 p, p.caption {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin: 0 auto 1.8rem auto;
 	text-align: left;
 	max-width: 36rem;
 }
 p.caption {
-	font-size: 1em;
+	font-size: .95em;
 	margin: 1.8rem auto 5.4rem auto;
 	color: #8899A6;
 }
