@@ -57,6 +57,7 @@ and (max-device-width : 480px) {
 	h1 {
 		font-size: 1.4em;
 		margin: 0 auto 1.4rem auto;
+		letter-spacing: -.2;
 	}
 
 	p, p.caption {
