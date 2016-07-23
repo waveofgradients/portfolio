@@ -65,6 +65,7 @@ and (max-device-width : 480px) {
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
+		line-height: 1.44;
 	}
 	p.caption {
 		margin: 1rem auto 3rem auto;
