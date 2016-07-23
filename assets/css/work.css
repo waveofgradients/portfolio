@@ -56,19 +56,19 @@ and (max-device-width : 480px) {
 	#mark {width: 60px;}
 
 	h1 {
-		font-size: 1.4em;
+		font-size: 1.5em;
 		margin: 0 auto 1.4rem auto;
 	}
 
 	p, p.caption {
-		font-size: 1em;
+		font-size: 1.1em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
 		line-height: 1.44;
 	}
 	p.caption {
-		margin: 1rem auto 3rem auto;
+		margin: 1.1rem auto 3rem auto;
 		color: #8899A6;
 	}	
 }
