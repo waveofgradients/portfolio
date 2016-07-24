@@ -68,7 +68,7 @@ and (max-device-width : 480px) {
 	}
 
 	p, p.caption {
-		font-size: 1.1em;
+		font-size: 1.05em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
