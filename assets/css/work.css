@@ -60,7 +60,9 @@ p.caption {
 @media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-	#mark {width: 60px;}
+	#mark {width: 60px;
+		padding-top: 6%;
+	}
 
 	h1 {
 		font-size: 1.5em;
