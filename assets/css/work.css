@@ -1,13 +1,14 @@
 body {
 	background-color: #E0EEFF;
 	color: #292F33;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Merriweather', serif;
+	/*font-family: "proxima-nova",sans-serif;*/
 	margin: 0 auto;
 	padding: 0 0 5.4rem 0;
 	position: relative;
 	font-variant-ligatures: common-ligatures;
 	text-align: center;
-	line-height: 1.6;
+	line-height: 1.7;
 	text-rendering: optimizeLegibility;
 }
 
