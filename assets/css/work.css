@@ -28,7 +28,7 @@ img#mark:hover {
 }
 
 img {border: 0;}
-img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
+img.sample {width: 100%; max-width: 960px; padding: .5rem 0;}
 
 section {
 	margin: 0 auto;
