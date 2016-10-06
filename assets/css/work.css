@@ -1,5 +1,5 @@
 body {
-	background-color: #E0EEFF;
+	background-color: #fff;
 	color: #292F33;
 	font-family: "ff-tisa-sans-web-pro",sans-serif;
 	margin: 0 auto;
@@ -28,7 +28,13 @@ img#mark:hover {
 }
 
 img {border: 0;}
-img.sample {width: 100%; max-width: 1024px; padding: .5rem 0;}
+img.sample {
+	width: 100%;
+	max-width: 1024px;
+	padding: 0;
+	border: inset .5px rgba(0,0,0, .1);
+    margin: .5rem 0;
+}
 
 section {
 	margin: 0 auto;
