@@ -32,7 +32,6 @@ img.sample {
 	width: 100%;
 	max-width: 1024px;
 	padding: 0;
-	border: inset .5px rgba(0,0,0, .1);
     margin: .5rem 0;
 }
 
@@ -70,12 +69,12 @@ and (max-device-width : 480px) {
 	}
 
 	h1 {
-		font-size: 1.6em;
+		font-size: 1.3em;
 		margin: 0 auto 1.4rem auto;
 	}
 
 	p, p.caption {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
