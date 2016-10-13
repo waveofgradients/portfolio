@@ -57,7 +57,7 @@ ul li {
 @media screen 
 and (min-width : 1700px) {
 	p {font-size: 3em; padding-bottom: .4em;}
-	section {width: 62em; height: 39em;}
+	section {width: 60em; height: 39em;}
 	ul li {font-size: 1.8em; padding-left: 0; padding-right: .8em;}
 }
 
