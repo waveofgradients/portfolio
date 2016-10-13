@@ -65,7 +65,7 @@ and (min-width : 1700px) {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 	body {text-align: left; padding: 0;}
-	p {font-size: 1.7em; padding-bottom: .2em; font-weight: 400;}
+	p {font-size: 1.5em; padding-bottom: .2em; font-weight: 400;}
 	section {margin: auto; width: 84%; height: 24em; padding: 0 8%;}
 	ul li {font-size: 1.25em; padding-left: 0; padding-right: .8em;}
 	h1 {display: none;}
