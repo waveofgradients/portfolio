@@ -52,8 +52,6 @@ ul li {
 
 #gradient {height: 100%; width: 100%;}
 
-.desktop_hide {display: none;}
-
 @media screen 
 and (min-width : 1700px) {
 	p {font-size: 2.9em; padding-bottom: .4em;}
@@ -70,8 +68,6 @@ and (max-device-width : 480px) {
 	ul li {font-size: 1.26em; padding-left: 0; padding-right: .8em;}
 	h1 {display: none;}
 	h2 {display: block;}
-	.mobile_hide {display: none;}
-	.desktop_hide {display: block;}
 }
 
 @media screen 
