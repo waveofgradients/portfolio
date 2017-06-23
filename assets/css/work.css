@@ -29,6 +29,7 @@ img#mark:hover {
 
 img {border: 0;}
 img.sample {
+	border-radius: 8px;
 	width: 100%;
 	max-width: 1024px;
 	padding: 0;
