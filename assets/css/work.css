@@ -38,7 +38,7 @@ img.sample {
 
 section {
 	margin: 0 auto;
-	padding: 6%;
+	padding: 8%;
 }
 
 h1 {
@@ -75,7 +75,7 @@ and (max-device-width : 480px) {
 	}
 
 	p, p.caption {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
