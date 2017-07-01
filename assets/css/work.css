@@ -1,7 +1,7 @@
 body {
 	background-color: #F0F3F5;
 	color: #292F33;
-	font-family: "futura-pt";,sans-serif;
+	font-family: "soleil", serif;
 	margin: 0 auto;
 	padding: 0 0 5.4rem 0;
 	position: relative;
@@ -17,12 +17,14 @@ body.fade-out {
 }
 
 #mark {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   width: 80px;	
+	display: block;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	width: 80px;	
 }
+
 img#mark:hover {
 	opacity: .85;
 }
@@ -41,24 +43,26 @@ section {
 	padding: 8%;
 }
 
+h1, p, p.caption {
+	max-width: 38rem;
+	text-align: left;
+}
+
 h1 {
 	font-size: 1.8em;
-	font-weight: normal;
-	letter-spacing: -.5;
+	font-weight: bold;
 	line-height: 1.3;
 	margin: 0 auto 1.8rem auto;
 }
 
 p, p.caption {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	margin: 0 auto 1.8rem auto;
-	text-align: left;
-	max-width: 36rem;
 }
 p.caption {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	margin: 1.8rem auto 5.4rem auto;
-	color: #8899A6;
+	color: #7D8D99;
 }
 
 
@@ -83,6 +87,6 @@ and (max-device-width : 480px) {
 	}
 	p.caption {
 		margin: 1.1rem auto 3rem auto;
-		color: #8899A6;
+		color: #7D8D99;
 	}	
 }
