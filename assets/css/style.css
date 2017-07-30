@@ -85,7 +85,7 @@ and (max-width : 800px) {
 and (min-width : 360px) 
 and (max-width : 460px) {
 	p {font-size: 1.2em;}
-	section {padding-top: 15%; max-width: 80%;}
+	section {padding: 15% 8% 8% 8%; max-width: 80%;}
 	ul li {font-size: 1.1em; line-height: 2; display: block;}
 	h1 {display: none;}
 	h2 {display: block;}
@@ -95,7 +95,7 @@ and (max-width : 460px) {
 and (min-width : 320px) 
 and (max-width : 359px) {
 	p {font-size: 1.2em;}
-	section {padding-top: 15%; max-width: 80%;}
+	section {padding: 15% 8% 8% 8%; max-width: 80%;}
 	ul li {font-size: 1em; line-height: 2; display: block;}
 	h1 {display: none;}
 	h2 {display: block;}
