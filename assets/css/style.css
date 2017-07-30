@@ -84,7 +84,7 @@ and (max-width : 800px) {
 @media screen 
 and (min-width : 360px) 
 and (max-width : 460px) {
-	p {font-size: 1.4em;}
+	p {font-size: 1.7em;}
 	section {padding: 15% 8% 8% 8%; max-width: 84%;}
 	ul li {font-size: 1.1em; line-height: 2; display: block;}
 	h1 {display: none;}
@@ -94,7 +94,7 @@ and (max-width : 460px) {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 359px) {
-	p {font-size: 1.2em;}
+	p {font-size: 1.4em;}
 	section {padding: 15% 8% 8% 8%; max-width: 84%;}
 	ul li {font-size: 1em; line-height: 2; display: block;}
 	h1 {display: none;}
