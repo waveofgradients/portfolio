@@ -9,12 +9,13 @@ body {
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-	color: #fff;
 	font-family: soleil, sans-serif;
 	font-size: 100%;
+	color: #fff;
 	font-variant-ligatures: common-ligatures;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 	line-height: 1.52;
 }
 
@@ -22,7 +23,6 @@ a, a:active, a:visited {
 	color: rgba(255,255,255, .75);
 	cursor: pointer;
 	text-decoration: none;
-	-o-transition:color .2s ease-out, background 1s ease-in;
   	-ms-transition:color .2s ease-out, background 1s ease-in;
   	-moz-transition:color .2s ease-out, background 1s ease-in;
   	-webkit-transition:color .2s ease-out, background 1s ease-in;
