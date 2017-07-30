@@ -75,7 +75,7 @@ and (max-width : 900px) {
 and (min-width : 461px) 
 and (max-width : 800px) {
 	p {font-size: 2.4em;}
-	section {padding-top: 15%; max-width: 80%;}
+	section {padding: 15% 8% 8% 8%; max-width: 84%;}
 	ul li {font-size: 1.2em;}
 	h1 {display: none;}
 	h2 {display: block;}
@@ -84,7 +84,7 @@ and (max-width : 800px) {
 @media screen 
 and (min-width : 360px) 
 and (max-width : 460px) {
-	p {font-size: 1.6em;}
+	p {font-size: 1.55em;}
 	section {padding: 15% 8% 8% 8%; max-width: 84%;}
 	ul li {font-size: 1.1em; line-height: 2; display: block;}
 	h1 {display: none;}
@@ -94,7 +94,7 @@ and (max-width : 460px) {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 359px) {
-	p {font-size: 1.37em;}
+	p {font-size: 1.3em;}
 	section {padding: 15% 8% 8% 8%; max-width: 84%;}
 	ul li {font-size: 1em; line-height: 2; display: block;}
 	h1 {display: none;}
