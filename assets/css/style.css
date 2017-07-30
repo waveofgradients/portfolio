@@ -2,6 +2,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 body {
 	background-image: linear-gradient(-20deg, #FF1F00 0%, #9700FF 100%);
+	border: 20px solid white;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-align-items: center;
