@@ -34,12 +34,12 @@ h1, h2 {padding: 0;}
 h2 {display: none;}
 
 section {
-	width: 50em;
+	width: 44em;
 	padding: 8%;
 }
 
 p {
-	font-size: 3.1em;
+	font-size: 2.8em;
 	font-weight: 500;
 	margin: 0;
 	letter-spacing: -.5;
@@ -63,8 +63,8 @@ and (min-width: 1700px) {
 @media screen 
 and (min-width: 701px) 
 and (max-width: 1023px) {
-	p {font-size: 2.5em;}
-	section {width: 40em;}
+	p {font-size: 2.2em;}
+	section {width: 35em;}
 }
 
 @media screen 
