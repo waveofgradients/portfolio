@@ -65,7 +65,7 @@ img.sample {
 
 section {
 	margin: 0 auto;
-	padding: 8%;
+	padding: 6%;
 }
 
 h1, p, p.caption {
@@ -87,7 +87,7 @@ p, p.caption {
 }
 p.caption {
 	font-size: 1.4em;
-	margin: 1.8rem auto 5.4rem auto;
+	margin: .8rem auto 5.4rem auto;
 	color: #7D8D99;
 }
 
@@ -95,7 +95,7 @@ p.caption {
 @media screen 
 and (min-width : 320px) 
 and (max-width : 480px) {
-	#mark {width: 60px;
+	#mark {width: 80px;
 		padding-top: 6%;
 	}
 
@@ -105,11 +105,11 @@ and (max-width : 480px) {
 	}
 
 	p, p.caption {
-		font-size: 1em;
+		font-size: 1.125em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
 		max-width: 40rem;
-		line-height: 1.55;
+		line-height: 1.7;
 	}
 	p.caption {
 		margin: 1.1rem auto 3rem auto;
