@@ -75,7 +75,7 @@ and (max-width: 1023px) {
 and (min-width: 461px) 
 and (max-width: 700px) {
 	main {padding: 4em 5em 4em 5em;}
-	h1 {font-size: 2em;}
+	h1 {font-size: 2.3em;}
 	ul li {width: 100%; margin-top: 10px;}
 	ul li:first-child {display: none;}
 }
