@@ -93,7 +93,7 @@ p.caption {
 
 
 @media screen 
-and (min-width : 320px) 
+and (min-width : 0px) 
 and (max-width : 480px) {
 	#mark {width: 80px;
 		padding-top: 6%;
