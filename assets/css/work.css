@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 	color: #14171A;
 	font-family: soleil, sans-serif;
-	line-height: 1.6;
+	line-height: 1.5;
 	text-align: center;
 	font-variant-ligatures: common-ligatures;
 	-webkit-font-smoothing: antialiased;
@@ -82,11 +82,11 @@ h1 {
 }
 
 p, p.caption {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	margin: 0 auto 1.8rem auto;
 }
 p.caption {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	margin: .8rem auto 5.4rem auto;
 	color: #7D8D99;
 }
@@ -108,7 +108,7 @@ and (max-width : 480px) {
 		font-size: 1.125em;
 		margin: 0 auto 1rem auto;
 		text-align: left;
-		max-width: 40rem;
+		max-width: 36rem;
 		line-height: 1.7;
 	}
 	p.caption {
