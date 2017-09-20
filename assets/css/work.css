@@ -46,7 +46,7 @@ body {
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
-	width: 104px;	
+	width: 80px;	
 }
 
 img#mark:hover {
