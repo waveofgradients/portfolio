@@ -33,6 +33,11 @@ body.fade {
     transition: none;
 }
 
+.hidimg1 {display: none; background-image: url('assets/img/mountains.jpg'); width: 100%; height: 100%; position: fixed; z-index: -2;}
+
+a:hover.hidimg1 {display: block;}
+
+
 .circle {
 	position: fixed;
 	width: 100%;
