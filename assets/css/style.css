@@ -97,7 +97,7 @@ and (min-width: 360px)
 and (max-width: 566px) {
 	main {padding: 2.5em 3em 2.5em 3em;}
 	.circle svg {width: 170%; height: 170%;}
-	h1 {font-size: 1.25em; line-height: 1.5;}
+	h1 {font-size: 1.54em; line-height: 1.5;}
 	/*hide default h1 and show condensed version*/
 	h1:first-child {display: none}
 	h1.condensed {display: block;}
@@ -108,7 +108,7 @@ and (min-width: 0px)
 and (max-width: 359px) {
 	main {padding: 2em 2.5em 2em 2.5em;}
 	.circle svg {width: 170%; height: 170%;}
-	h1 {font-size: 1.25em; line-height: 1.5;}
+	h1 {font-size: 1.54em; line-height: 1.5;}
 	/*hide default h1 and show condensed version*/
 	h1:first-child {display: none}
 	h1.condensed {display: block;}
