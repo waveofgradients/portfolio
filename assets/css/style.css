@@ -23,6 +23,15 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+.circle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20em;
+	margin-top: -20em;
+	z-index: -1;
+}
+
 main {
     display: -ms-flexbox;
     display: flex;
