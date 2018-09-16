@@ -14,6 +14,8 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
+	<!--Fade in animation-->
+	<script>document.body.className = 'fade';</script>
 	<div class="circle">
 		<svg width="100%" height="100%" viewBox="0 0 1066 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		    <defs>
@@ -59,5 +61,10 @@
 			</ul>
 		</footer>
 	</main>
+	<script>
+		document.addEventListener("DOMContentLoaded", function(e) {
+		document.body.className = '';
+		});
+	</script>
 </body>
 </html>

@@ -13,7 +13,7 @@ a:hover {color: rgba(255,255,255, 1);}
 
 html, body, main {height: 100%;}
 
-html {
+body {
 	background-image: linear-gradient(134deg, #5840FD 0%, #6201BC 38%, #D101A5 63%, #FF006C 84%);
 	color: #fff;
 	font: 400 100% soleil, sans-serif;
@@ -22,6 +22,15 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	text-shadow: 0 2px 4px rgba(76,25,179,0.20);
+	/*Fade in animation*/
+	opacity: 1;
+	transition: 0.7s opacity;
+}
+
+/*Fade in animation*/
+body.fade {
+    opacity: 0;
+    transition: none;
 }
 
 .circle {
