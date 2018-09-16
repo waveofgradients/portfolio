@@ -95,3 +95,16 @@ and (max-width: 359px) {
 	.circle svg {width: 170%; height: 170%;}
 	h1 {font-size: 1.35em;}
 }
+
+/*Orientation lock*/
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
