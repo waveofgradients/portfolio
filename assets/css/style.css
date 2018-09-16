@@ -44,7 +44,7 @@ main {
 h1 {
 	font-size: 3.2em;
 	font-weight: 700;
-	line-height: 1.4em;
+	line-height: 1.4;
 	max-width: 14.5em; 
 }
 
@@ -54,7 +54,7 @@ ul {
 }
 ul li {
 	font-size: 1.25em;
-	line-height: 2em;
+	line-height: 2;
 	font-weight: 700;
 }
 
