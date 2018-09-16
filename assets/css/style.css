@@ -33,7 +33,7 @@ body.fade {
     transition: none;
 }
 
-div.hidimg1 {
+.hidimg1 {
 	display: none;
 	background-image: url(/assets/img/mountains.jpg);
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ div.hidimg1 {
     z-index: -2;
 }
 
-a.wilderness:hover>div.hidimg1 {display: block;}
+.hidimg1 a.wilderness:hover {display: block;}
 
 
 .circle {
