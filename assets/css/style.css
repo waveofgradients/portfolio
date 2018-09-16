@@ -85,7 +85,7 @@ and (min-width: 360px)
 and (max-width: 566px) {
 	main {padding: 2.5em 3em 2.5em 3em;}
 	.circle svg {width: 170%; height: 170%;}
-	h1 {font-size: 1.75em;}
+	h1 {font-size: 1.35em;}
 }
 
 @media screen 
@@ -93,5 +93,5 @@ and (min-width: 0px)
 and (max-width: 359px) {
 	main {padding: 2em 2.5em 2em 2.5em;}
 	.circle svg {width: 170%; height: 170%;}
-	h1 {font-size: 1.52em;}
+	h1 {font-size: 1.35em;}
 }
