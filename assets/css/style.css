@@ -83,7 +83,6 @@ and (max-width: 700px) {
 and (min-width: 360px) 
 and (max-width: 566px) {
 	main {padding: 2.5em 3em 2.5em 3em;}
-	.circle {margin-left: -5em;}
 	h1 {font-size: 1.9em;}
 	ul li {width: 100%; margin-top: 10px;}
 }
@@ -92,7 +91,6 @@ and (max-width: 566px) {
 and (min-width: 0px) 
 and (max-width: 359px) {
 	main {padding: 2em 2.5em 2em 2.5em;}
-	.circle {margin-left: -5em;}
 	h1 {font-size: 1.65em;}
 	ul li {width: 100%;}
 }
