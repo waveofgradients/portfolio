@@ -42,7 +42,7 @@ main {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
 	font-weight: 700;
 	line-height: 1.4em;
 	max-width: 14.5em; 
@@ -61,7 +61,7 @@ ul li {
 @media screen 
 and (min-width: 1700px) {
 	main {padding: 6.5em 8em 8em 8em;}
-	h1 {font-size: 5em;}
+	h1 {font-size: 6em;}
 	ul li {font-size: 1.65em;}
 }
 
