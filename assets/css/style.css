@@ -47,9 +47,8 @@ ul {
 }
 ul li {
 	font-size: 1.25em;
-	line-height: 1.5em;
+	line-height: 1.75em;
 	font-weight: bold;
-	float: left;
 }
 
 @media screen 
