@@ -34,9 +34,9 @@ main {
 }
 
 h1 {
-	font-size: 2.7em;
+	font-size: 3em;
+	font-weight: bold;
 	line-height: 1.35em;
-	letter-spacing: -.5px;
 	max-width: 14em; 
 }
 
@@ -49,6 +49,7 @@ ul {
 ul li {
 	display:table-cell;
 	font-size: 1.25em;
+	font-weight: bold;
 	float: left;
 	display: flex;
     line-height: 30px;
