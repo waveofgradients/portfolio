@@ -24,7 +24,8 @@ body {
 	text-shadow: 0 2px 4px rgba(76,25,179,0.20);
 	/*Fade in animation*/
 	opacity: 1;
-	transition: 0.7s opacity;
+	transition: 0.5s opacity;
+	transition-timing-function: ease-in;
 }
 
 /*Fade in animation*/
@@ -54,7 +55,7 @@ h1 {
 	font-size: 3em;
 	font-weight: 700;
 	max-width: 14.5em; 
-	line-height: 1.4;
+	line-height: 1.4;	
 }
 
 /*hidden until needed by smaller viewports*/
