@@ -25,6 +25,7 @@ body {
 	/*Fade in animation*/
 	opacity: 1;
 	transition: 0.5s opacity;
+	transition-delay: .2s;
 	transition-timing-function: ease-in;
 }
 
