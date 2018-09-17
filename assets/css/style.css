@@ -47,7 +47,7 @@ body.fade {
     z-index: -2;
 }
 
-.hidimg1 a.wilderness:hover {display: block;}
+a.wilderness:hover ~ .hidimg1 {display: block;}
 
 
 .circle {
