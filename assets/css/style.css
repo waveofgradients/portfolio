@@ -33,23 +33,6 @@ body.fade {
     transition: none;
 }
 
-.hidimg1 {
-	display: none;
-	background-image: url(/assets/img/mountains.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #5840FD;
-    width: 100%;
-    opacity: .5;
-    background-blend-mode: overlay;
-    height: 100%;
-    position: fixed;
-    z-index: -2;
-}
-
-a.wilderness:hover ~ .hidimg1 {display: block;}
-
-
 .circle {
 	position: fixed;
 	width: 100%;
