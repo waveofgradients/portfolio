@@ -24,7 +24,7 @@ body {
 	text-shadow: 0 2px 4px rgba(76,25,179,0.20);
 	/*Fade in animation*/
 	opacity: 1;
-	transition: 0.5s opacity;
+	transition: 0.4s opacity;
 	transition-delay: .1s;
 	transition-timing-function: ease-in;
 }
