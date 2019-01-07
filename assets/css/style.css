@@ -33,7 +33,7 @@ div.bg {
 	width: 100%;
 	position: fixed;
 	background-image: linear-gradient(134deg, #5840FD 0%, #6201BC 38%, #D101A5 63%, #FF006C 84%);
-	z-index: -1;
+	z-index: -2;
 }
 
 /*Fade in animation*/
