@@ -28,7 +28,7 @@ body {
 	transition-timing-function: ease-in;
 }
 
-.bg {
+div.bg {
 	height: 100%;
 	width: 100%;
 	position: fixed;
