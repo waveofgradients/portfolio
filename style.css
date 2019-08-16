@@ -4,7 +4,7 @@ body {
 	font: 500 24px soleil, sans-serif;
 	line-height: 1.4;
 	color: white;
-	background-color: #8739F8;
+	background: #8739F8;
 }
 
 header {
@@ -27,7 +27,7 @@ section {
 section p {
 	font-weight: 400;
 	font-size: 40px;
-	width: 21em;
+	width: 22em;
 	padding-bottom: 1em;
 }
 
