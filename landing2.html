@@ -4,72 +4,49 @@
   <meta charset="utf-8">
   <title>Sean Thompson • Product Designer</title>
   <meta name="description" content="An experienced product designer and leader at Twitter, in Boulder, Colorado. Inspired by minimalism, happiest in the wilderness.">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="style2.css" rel="stylesheet">
 </head>
-
-<style>
-	a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-	
-
-	body {
-		font: 20px soleil, sans-serif;
-		line-height: 1;
-		color: #FFE3CA;
-		background: #033D28;
-	}
-	
-	a, a:active, a:visited {
-		color: rgba(255,227,202, 1.0);
-		cursor: pointer;
-		text-decoration: none;
-	  	-ms-transition:color .2s ease-out, background 1s ease-in;
-	  	-moz-transition:color .2s ease-out, background 1s ease-in;
-	  	-webkit-transition:color .2s ease-out, background 1s ease-in;
-	  	transition:color .2s ease-out, background 1s ease-in;
-	}
-	a:hover {color: rgba(255,255,255, 1);}
-
-	h1 {
-		font-size: 40px;
-		font-weight: normal;
-		line-height: 1.35;
-		text-align: center;
-	}
-
-	nav {
-		position: absolute;
-	}
-
-	section {
-		height: 100vh;
-		width: 100vw;
-		position: relative;
-	}
-
-	section div {
-		width: 638px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-</style>
 
 <body>
 	<nav>
-		<a href="">Resume</a>
-		<a href="">Contact</a>
+		<div class="grid-container">
+			<div class="item1"><a href="https://www.linkedin.com/in/seanthomps/">Resume</a></div>
+			<div class="item2 name"><a href="http://cyanhex.co">Sean Thompson</a></div>
+			<div class="item3"><a href="mailto:cyangradient@gmail.com">Contact</a></div>
+		</div>
 	</nav>
 	<section>
 		<div>
 			<h1>
-				An experienced product designer and leader at Twitter, in Boulder, Colorado. Inspired by minimalism, happiest in the wilderness.
+				An experienced product designer and leader at Twitter, in Boulder, Colorado.	
 			</h1>
 		</div>
+
+		<div class="cover">&nbsp;</div>
+
+		<video autoplay muted loop id="myVideo"><source src="coloradoloop.mp4" type="video/mp4"></video>	
 	</section>
-	<nav>
-		<a href="">Twitter</a>
-		<a href="">Instagram</a>
+	<nav class="two">
+		<div class="grid-container">
+			<div class="item1"><a href="https://twitter.com/cyanhex">Twitter</a></div>
+			<div class="item2"><a href="https://dribbble.com/cyanhex">Dribbble</a></div>
+			<div class="item3"><a href="https://instagram.com/cyanhex">Instagram</a></div>
+		</div>
 	</nav>
+
+	<script>
+		$(document).ready(function(){
+			/* Fades in page on load */
+			$('body').css('display', 'none');
+			$('body').fadeIn(500);
+		});
+
+		$(document).ready(function() {
+					var colors = ["#033D28", "#042454", "#7A2C00", "#4C0404"];
+					var rand = Math.floor(Math.random() * colors.length);
+					$('.cover, body').css("background", colors[rand]);
+		});		
+	</script>
 </body>
 </html>
