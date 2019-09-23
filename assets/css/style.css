@@ -3,7 +3,7 @@
 a, a:active, a:visited {
 	color: rgba(255,255,255, .7);
 	cursor: pointer;
-	text-decoration: none;
+	text-decoration: underline;
   	-ms-transition:color .2s ease-out, background 1s ease-in;
   	-moz-transition:color .2s ease-out, background 1s ease-in;
   	-webkit-transition:color .2s ease-out, background 1s ease-in;
