@@ -19,6 +19,7 @@
 	<script>document.body.className = 'fade';</script>
 	<div class="circle">
 		
+
 <svg width="824px" height="824px" viewBox="0 0 824 824" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <linearGradient x1="49.8692638%" y1="0%" x2="49.8692638%" y2="92.7029511%" id="linearGradient-1">
@@ -32,20 +33,12 @@
             <feGaussianBlur stdDeviation="50" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.164705882   0 0 0 0 0.960784314   0 0 0 0 0.788235294  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <filter x="-23.1%" y="-22.8%" width="146.2%" height="146.2%" filterUnits="objectBoundingBox" id="filter-4">
-            <feMorphology radius="30" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
-            <feGaussianBlur stdDeviation="30" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.419607843   0 0 0 0 0.031372549   0 0 0 0 0.917647059  0 0 0 0.6 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="3.2" transform="translate(-308.000000, -102.000000)" fill-rule="nonzero">
             <g id="Oval" transform="translate(720.000000, 512.000000) scale(1, -1) rotate(-180.000000) translate(-720.000000, -512.000000) ">
                 <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
                 <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
             </g>
         </g>
     </g>
