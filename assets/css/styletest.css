@@ -49,6 +49,11 @@ body.fade {
 	z-index: -1;
 }
 
+nav {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
 main {
     display: -ms-flexbox;
     display: flex;
@@ -61,7 +66,7 @@ main {
 
 h1 {
 	font-size: 3em;
-	font-weight: 700;
+	font-weight: normal;
 	max-width: 14.5em; 
 	line-height: 1.4;	
 }
