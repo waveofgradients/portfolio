@@ -51,7 +51,7 @@ body.fade {
 
 nav {
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 1.8em;
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.6em;
 	font-weight: normal;
 	max-width: 14.5em; 
 	line-height: 1.4;	
@@ -79,9 +79,8 @@ ul {
 	padding: 4em 0 0 0;
 }
 ul li {
-	font-size: 1.25em;
-	line-height: 2;
-	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 2.4;
 }
 
 @media screen 
