@@ -9,7 +9,7 @@ a, a:active, a:visited {
   	-webkit-transition:color .2s ease-out, background 1s ease-in;
   	transition:color .2s ease-out, background 1s ease-in;
 }
-a:hover {color: rgba(255,255,255, .9); text-decoration: none;}
+a:hover {color: rgba(255,255,255, .75); text-decoration: none;}
 
 html, body, main {height: 100%;}
 
