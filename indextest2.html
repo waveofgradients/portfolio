@@ -44,17 +44,60 @@
 			/* Fades in page on load */
 			$('body').css('display', 'none');
 			$('body').fadeIn(500);
-		});
-
-		$(document).ready(function() {
-					var colors = ["#033D28", "#3D1803", "#032F3D"];
-					$('.bg').css("background";
-		});		
-
-		$(document).ready(function() {
-					var colors = ["#FFD335", "#35E7FF", "#FF3535"];
-					$('.color').css("color";
-		});			
+		});				
 	</script>
+
+	<script type="text/javascript">
+
+            function loadNextImage1() {
+
+            //declare image directory path and image array
+            var colors = ["#eee", "#123123", "red"];
+            colors[0] = "#eee";
+            colors[1] = "#123";
+            colors[2] = "red";
+
+            //get current cookie value
+            var currentIndex = parseInt(getCookie());
+            var background = colors[currentIndex];
+
+            document.body.style.backgroundColor = background;
+
+            //set next cookie index
+            currentIndex += 1;
+            currentIndex %= colors.length;
+            setCookie(currentIndex);
+        }
+
+        function setCookie(someint) {
+            var now = new Date();
+            var addDays = now.getDate() + 7
+            now.setDate(addDays); // cookie expires in 7 days
+            var theString = 'imgID=' + escape(someint) + ';expires=' + now.toUTCString();
+            document.cookie = theString;
+        }
+
+        function getCookie() {
+            var output = "0";
+            if(document.cookie.length > 0) {
+                var temp = unescape(document.cookie);
+                temp = temp.split(';');
+                for(var i = 0; i < temp.length; i++) {
+                    if(temp[i].indexOf('imgID') != -1) {
+                        temp = temp[i].split('=');
+                        output = temp.pop();
+                        break;
+                    }
+                }
+            }
+            return output;
+        }
+
+</script>
+
+<body onload="loadNextImage1();">
+
+<img id="ImageRefresh">
+
 </body>
 </html>
