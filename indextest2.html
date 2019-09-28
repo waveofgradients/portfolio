@@ -23,9 +23,9 @@
 		</svg>
     </div>
 	<main>
-		<nav>Sean Thompson</nav>
+		<nav class="color">Sean Thompson</nav>
 		<header>
-			<h1>A product designer at Twitter, in Boulder, Colorado. Inspired by minimalism, happiest in the wilderness.</h1>
+			<h1 class="color">A product designer at Twitter, in Boulder, Colorado. Inspired by minimalism, happiest in the wilderness.</h1>
 			<h1 class="condensed">A product designer at <a href="https://twitter.com/cyanhex">Twitter</a>. Inspired by minimalism, happiest in the wilderness.</h1>
 		</header>
 		<footer>
@@ -44,6 +44,25 @@
 		document.addEventListener("DOMContentLoaded", function(e) {
 		document.body.className = '';
 		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			/* Fades in page on load */
+			$('body').css('display', 'none');
+			$('body').fadeIn(500);
+		});
+
+		$(document).ready(function() {
+					var colors = ["#033D28", "#3D1803", "#032F3D"];
+					var rand = Math.floor(Math.random() * colors.length);
+					$('.cover, body').css("background", colors[rand]);
+		});		
+
+		$(document).ready(function() {
+					var colors = ["#FFD335", "#35E7FF", "#FF3535"];
+					var rand = Math.floor(Math.random() * colors.length);
+					$('.color').css("color", colors[rand]);
+		});			
 	</script>
 </body>
 </html>
