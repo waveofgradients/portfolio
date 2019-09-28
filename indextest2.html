@@ -50,6 +50,54 @@
             function loadNextImage1() {
 
             //declare image directory path and image array
+            var colors = ["#FFD335", "#35E7FF", "#FF3535"];
+            colors[0] = "#FFD335";
+            colors[1] = "#35E7FF";
+            colors[2] = "#FF3535";
+
+            //get current cookie value
+            var currentIndex = parseInt(getCookie());
+            var accent = colors[currentIndex];
+
+            document.main.style.color = accent;
+
+            //set next cookie index
+            currentIndex += 1;
+            currentIndex %= colors.length;
+            setCookie(currentIndex);
+        }
+
+        function setCookie(someint) {
+            var now = new Date();
+            var addDays = now.getDate() + 7
+            now.setDate(addDays); // cookie expires in 7 days
+            var theString = 'imgID=' + escape(someint) + ';expires=' + now.toUTCString();
+            document.cookie = theString;
+        }
+
+        function getCookie() {
+            var output = "0";
+            if(document.cookie.length > 0) {
+                var temp = unescape(document.cookie);
+                temp = temp.split(';');
+                for(var i = 0; i < temp.length; i++) {
+                    if(temp[i].indexOf('imgID') != -1) {
+                        temp = temp[i].split('=');
+                        output = temp.pop();
+                        break;
+                    }
+                }
+            }
+            return output;
+        }
+
+</script>
+
+	<script type="text/javascript">
+
+            function loadNextImage1() {
+
+            //declare image directory path and image array
             var colors = ["#033D28", "#3D1803", "#032F3D"];
             colors[0] = "#033D28";
             colors[1] = "#3D1803";
