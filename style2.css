@@ -74,20 +74,6 @@ section div {
 	background: #033D28;
 	height: 100vh;
 	width: 100vw;
-	opacity: .93;
 	z-index: 1;
 	position: absolute;
-}
-
-#myVideo {
-  	position: relative;
-  	top: 0;
-  	left: 0;
-	min-height: 100vh;
-	min-width: 100vw;
-  	z-index: 0;
-}
-
-video::-webkit-media-controls-start-playback-button {
-  display: none;
 }
