@@ -14,7 +14,7 @@ html, body, main {height: 100%;}
 
 body {
 	color: #fff;
-	font: 400 100% soleil, sans-serif;
+	font: 500 100% soleil, sans-serif;
 	font-variant-ligatures: common-ligatures;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -61,7 +61,7 @@ main {
 
 h1 {
 	font-size: 2.5em;
-	font-weight: 600;
+	font-weight: 500;
 	max-width: 19em;
 	line-height: 1.4;
 }
