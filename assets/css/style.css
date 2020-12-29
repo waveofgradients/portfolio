@@ -14,6 +14,7 @@ html, body, main {height: 100%;}
 
 body {
 	color: #fff;
+	background: #0400BF;
 	font: 500 100% soleil, sans-serif;
 	font-variant-ligatures: common-ligatures;
 	-webkit-font-smoothing: antialiased;
@@ -31,7 +32,6 @@ div.bg {
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	background: #0400BF;
 	z-index: -2;
 }
 
