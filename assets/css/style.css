@@ -79,7 +79,7 @@ ul li {
 @media screen
 and (min-width: 1700px) {
 	main {padding: 6.5em 8em 8em 8em;}
-	h1 {font-size: 2.85em;}
+	h1 {font-size: 3em;}
 	ul li {font-size: 1.5em;}
 }
 
