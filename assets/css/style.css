@@ -88,14 +88,8 @@ and (min-width: 1700px) {
 }
 
 @media screen
-and (min-width: 701px)
-and (max-width: 880px) {
-	main {padding: 5em 6em 5em 6em;}
-	h1 {font-size: 2em;}
-
-@media screen
 and (min-width: 567px)
-and (max-width: 700px) {
+and (max-width: 880px) {
 	main {padding: 3em 3.5em 3em 3.5em;}
 	.circle svg {width: 170%; height: 170%;}
 	h1 {font-size: 2em;}
