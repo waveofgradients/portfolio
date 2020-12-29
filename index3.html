@@ -11,8 +11,12 @@
 	<link href="assets/css/style3.css" rel="stylesheet">
 	<script src="https://use.typekit.net/tea2qzw.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/d3js/5.15.0/d3.min.js"></script>
 </head>
-<body>
+<body id="bg">
+	<!--Fade in animation-->
+	<script>document.body.className = 'fade';</script>
 	<div class="container">
 	  <div class="left">
 	    <div class="left-container">
@@ -29,21 +33,36 @@
 	    </div>
 	  </div>
 	  <div class="right">
-	  <div class="right-container">
-	    <div>
-	      <a href="https://twitter.com/cyanhex">Twitter</a>
-	    </div>
-	    <div>
-	      <a href="http://linkedin.com/in/seanthomps">Resume</a>
-	    </div>
-	    <div>
-	      <a href="https://dribbble.com/cyanhex">Dribbble</a>
-	    </div>
-	    <div>
-	      <a href="mailto:cyangradient@gmail.com">Contact</a>
-	    </div>
+			<div class="right-container">
+			  <div>
+			    <a href="https://twitter.com/cyanhex">Twitter</a>
+			  </div>
+			  <div>
+			    <a href="http://linkedin.com/in/seanthomps">Resume</a>
+			  </div>
+			  <div>
+			    <a href="https://dribbble.com/cyanhex">Dribbble</a>
+			  </div>
+			  <div>
+			    <a href="mailto:cyangradient@gmail.com">Contact</a>
+			  </div>
 	    </div>
 	  </div>
 	</div>
+
+	<script>
+		getNewRandomColor();
+		function getNewRandomColor()
+		{
+		  var myArray = ['#7A58FF', '#FF774D', '#FF5858', '#00CCB4'];
+		  var rand = myArray[Math.floor(Math.random() * myArray.length)];
+		  document.getElementById("bg").style.backgroundColor = rand;
+		}
+
+		document.addEventListener("DOMContentLoaded", function(e) {
+		document.body.className = '';
+		});
+	</script>
+
 </body>
 </html>
