@@ -17,7 +17,7 @@ body {
 	background: #0400BF;
 	font: 500 100% soleil, sans-serif;
 	font-variant-ligatures: common-ligatures;
-	letter-spacing: -.05em;
+	letter-spacing: -.02em;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
