@@ -9,10 +9,9 @@ a, a:link, a:visited {color: #1E005D;}
 
 a:hover {color: #4300D1;}
 
-html {background: #F7F4FF;}
-
 body {
   font-family: 'Poppins', sans-serif;
+  background: #F7F4FF;
   color: #4300D1;
   line-height: 1.6;
   margin: 5rem;
@@ -70,48 +69,8 @@ and (max-width: 700px) {
 @media screen
 and (min-width: 0px)
 and (max-width: 566px) {
-  body {margin: 1.4rem;}
+  body {margin: 1.5rem;}
   header {margin-top: 1.5rem; margin-bottom: 10rem;}
   body, h1 {font-size: 1.05rem;}
   h2 {font-size: 1.4rem;}
-}
-
-/* animation */
-.animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
 }
